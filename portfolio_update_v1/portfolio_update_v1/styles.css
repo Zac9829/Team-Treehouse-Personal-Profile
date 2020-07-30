@@ -11,6 +11,7 @@ body {
   color: #222;
   background: #f7f5f0;
 }
+
 /* Link Styles */
 
 a {
@@ -171,6 +172,44 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+.guitar{
+  height: auto;
+  width: 300px;
+}
+
+.experience{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.hobbies{
+  display:flex;
+}
+
+.expdesc{
+  background-color: #002855;
+  color: white;
+  border:gold 20px solid;
+}
+
+.hobbies-list {
+  list-style-type: square;
+  font-size:30px;
+  list-style-position: inside;
+  display: inline-block; 
+  text-align: left;
+}
+
+.main-section p{
+    font-size:20px;
+}
+
+
+
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
